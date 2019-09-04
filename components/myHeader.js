@@ -3,7 +3,7 @@ import {
   Text,
   View,
   StyleSheet
-} from 'react-vr';
+} from 'react-360';
 
 const MyHeader = ({currentPlanet}) => (
   <View style={styles.header}>

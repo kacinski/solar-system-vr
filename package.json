@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node -e \"console.log('open browser at http://localhost:8081/vr/\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
-    "bundle": "node node_modules/react-vr/scripts/bundle.js",
+    "bundle": "node node_modules/react-360/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
     "devtools": "react-devtools",
     "test": "jest"
@@ -12,9 +12,9 @@
   "dependencies": {
     "ovrui": "~1.4.0",
     "react": "~15.4.1",
+    "react-360": "^1.1.0",
+    "react-360-web": "^1.1.0",
     "react-native": "~0.42.0",
-    "react-vr": "~1.4.0",
-    "react-vr-web": "~1.4.0",
     "three": "^0.80.1",
     "uuid": "^3.1.0"
   },
@@ -27,6 +27,6 @@
     "xopen": "1.0.0"
   },
   "jest": {
-    "preset": "react-vr"
+    "preset": "react-360"
   }
 }

@@ -5,7 +5,7 @@
  * */
 import {
   AppRegistry
-} from 'react-vr';
+} from 'react-360';
 import SolarSystem from './components/solarSystem';
 
 AppRegistry.registerComponent('solarSystem', () => SolarSystem);

@@ -6,7 +6,7 @@ import {
   Scene,
   AmbientLight,
   DirectionalLight
-} from 'react-vr';
+} from 'react-360';
 import planets from '../data/planets';
 import MyHeader from './myHeader';
 import Planet from './planet';

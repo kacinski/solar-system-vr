@@ -5,7 +5,7 @@ import {
   Model,
   Animated,
   StyleSheet
-} from 'react-vr';
+} from 'react-360';
 
 export default class Planet extends React.Component {
   constructor() {

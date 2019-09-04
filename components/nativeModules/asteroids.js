@@ -2,7 +2,7 @@ import React from 'react';
 import {
   View,
   NativeModules
-} from 'react-vr';
+} from 'react-360';
 const AsteroidsModule = NativeModules.Asteroids;
 
 export default class Asteroids extends React.Component {

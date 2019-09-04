@@ -1,4 +1,4 @@
-import {Module} from 'react-vr-web';
+import {Module} from 'react-360-web';
 import * as THREE from 'three';
 
 export default class AsteroidsModule extends Module {

@@ -5,7 +5,7 @@ import {
   Animated,
   VrButton,
   StyleSheet
-} from 'react-vr';
+} from 'react-360';
 import planets from '../data/planets';
 
 export default class Info extends React.Component {
